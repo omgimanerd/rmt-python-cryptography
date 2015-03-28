@@ -46,7 +46,7 @@ def overdose(string, a):
 def dontgo(string, a, b):
   return string.count(a) == string.count(b)
 
-def isprime(n):
+def isPrime(n):
   if n < 2:
     return False
   if n == 2:
@@ -60,12 +60,12 @@ def isprime(n):
 def primes(n):
   out = []
   for i in range(n):
-    if isprime(i):
+    if isPrime(i):
       out.append(i)
   return out
 
 def factor(n):
-  if isprime(n) or n < 2:
+  if isPrime(n) or n < 2:
     return str(n)
   else:
     for i in range(2, int(math.sqrt(n)) + 1):
@@ -84,9 +84,10 @@ def sort(list):
 
 # Most likely, the students will come up with a bubble sort.
 def sort(list):
-    for passnum in range(len(alist) - 1, 0, -1):
-        for i in range(passnum):
-            if alist[i] > alist[i+1]:
-                temp = alist[i]
-                alist[i] = alist[i+1]
-                alist[i+1] = temp
+  for passnum in range(len(list) - 1, 0, -1):
+    for i in range(passnum):
+      if list[i] > list[i+1]:
+        temp = list[i]
+        list[i] = list[i+1]
+        list[i+1] = temp
+  return list
