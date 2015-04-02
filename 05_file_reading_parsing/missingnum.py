@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
-def missingnum():
-    file = open("nums.txt")
+import sys
+
+def missingnum(filename):
+    file = open(filename)
     data = file.read().split("\n")
     
     a = []
@@ -13,4 +15,4 @@ def missingnum():
         if i != a[i]:
             return i
 
-print missingnum()
+print missingnum(sys.argv[1])
