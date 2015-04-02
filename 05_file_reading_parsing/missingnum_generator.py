@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import random
+import sys
 
 def randomize(a):
   for i in range(len(a)):
@@ -25,5 +26,5 @@ out = ""
 for i in q:
   out += str(i) + "\n"
 
-file = open("nums.txt", "w")
+file = open(sys.argv[1], "wb+")
 file.write(out[:-1])
