@@ -1,11 +1,5 @@
 #!/usr/bin/python
 
-def index(list, element):
-  return None
-
-def count(list, element):
-  return None
-
 def swap(string, a, b):
   return None
 

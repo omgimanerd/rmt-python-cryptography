@@ -9,30 +9,6 @@ print "[Correct output]"
 print "[Your output]"
 print "\n"
 
-print "index() test case:"
-print "index([1, 2, 3, 4, 5, 6], 1)"
-print candycompetition.index([1, 2, 3, 4, 5, 6], 1)
-print mycandycompetition.index([1, 2, 3, 4, 5, 6], 1)
-print "index([3, 6, 2, 7, 4], 2)"
-print candycompetition.index([3, 6, 2, 7, 4], 2)
-print mycandycompetition.index([3, 6, 2, 7, 4], 2)
-print "index([1, 2, 1, 2, 1], 3)"
-print candycompetition.index([1, 2, 1, 2, 1], 3)
-print mycandycompetition.index([1, 2, 1, 2, 1], 3)
-print "\n"
-
-print "freqOf() test case:"
-print "freqOf([1, 2, 3, 1, 4], 1)"
-print candycompetition.count([1, 2, 3, 1, 4], 1)
-print mycandycompetition.count([1, 2, 3, 1, 4], 1)
-print "count([1, 2, 1, 1, 1, 1, 1, 1], 1)"
-print candycompetition.count([1, 2, 1, 1, 1, 1, 1, 1], 1)
-print mycandycompetition.count([1, 2, 1, 1, 1, 1, 1, 1], 1)
-print "count([1, 2, 11, 6, 3, 2], 999)"
-print candycompetition.count([1, 2, 11, 6, 3, 2], 999)
-print mycandycompetition.count([1, 2, 11, 6, 3, 2], 999)
-print "\n"
-
 print "swap() test case:"
 print 'swap("aabbabababaabababa", "a", "b")'
 print candycompetition.swap("aabbabababaabababa", "a", "b")
