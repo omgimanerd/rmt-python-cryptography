@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
-def indexOf(list, element):
+def index(list, element):
   return None
 
-def freqOf(list, element):
+def count(list, element):
   return None
 
 def swap(string, a, b):

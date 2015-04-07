@@ -9,28 +9,28 @@ print "[Correct output]"
 print "[Your output]"
 print "\n"
 
-print "indexOf() test case:"
-print "indexOf([1, 2, 3, 4, 5, 6], 1)"
-print candycompetition.indexOf([1, 2, 3, 4, 5, 6], 1)
-print mycandycompetition.indexOf([1, 2, 3, 4, 5, 6], 1)
-print "indexOf([3, 6, 2, 7, 4], 2)"
-print candycompetition.indexOf([3, 6, 2, 7, 4], 2)
-print mycandycompetition.indexOf([3, 6, 2, 7, 4], 2)
-print "indexOf([1, 2, 1, 2, 1], 3)"
-print candycompetition.indexOf([1, 2, 1, 2, 1], 3)
-print mycandycompetition.indexOf([1, 2, 1, 2, 1], 3)
+print "index() test case:"
+print "index([1, 2, 3, 4, 5, 6], 1)"
+print candycompetition.index([1, 2, 3, 4, 5, 6], 1)
+print mycandycompetition.index([1, 2, 3, 4, 5, 6], 1)
+print "index([3, 6, 2, 7, 4], 2)"
+print candycompetition.index([3, 6, 2, 7, 4], 2)
+print mycandycompetition.index([3, 6, 2, 7, 4], 2)
+print "index([1, 2, 1, 2, 1], 3)"
+print candycompetition.index([1, 2, 1, 2, 1], 3)
+print mycandycompetition.index([1, 2, 1, 2, 1], 3)
 print "\n"
 
 print "freqOf() test case:"
 print "freqOf([1, 2, 3, 1, 4], 1)"
-print candycompetition.freqOf([1, 2, 3, 1, 4], 1)
-print mycandycompetition.freqOf([1, 2, 3, 1, 4], 1)
-print "freqOf([1, 2, 1, 1, 1, 1, 1, 1], 1)"
-print candycompetition.freqOf([1, 2, 1, 1, 1, 1, 1, 1], 1)
-print mycandycompetition.freqOf([1, 2, 1, 1, 1, 1, 1, 1], 1)
-print "freqOf([1, 2, 11, 6, 3, 2], 999)"
-print candycompetition.freqOf([1, 2, 11, 6, 3, 2], 999)
-print mycandycompetition.freqOf([1, 2, 11, 6, 3, 2], 999)
+print candycompetition.count([1, 2, 3, 1, 4], 1)
+print mycandycompetition.count([1, 2, 3, 1, 4], 1)
+print "count([1, 2, 1, 1, 1, 1, 1, 1], 1)"
+print candycompetition.count([1, 2, 1, 1, 1, 1, 1, 1], 1)
+print mycandycompetition.count([1, 2, 1, 1, 1, 1, 1, 1], 1)
+print "count([1, 2, 11, 6, 3, 2], 999)"
+print candycompetition.count([1, 2, 11, 6, 3, 2], 999)
+print mycandycompetition.count([1, 2, 11, 6, 3, 2], 999)
 print "\n"
 
 print "swap() test case:"

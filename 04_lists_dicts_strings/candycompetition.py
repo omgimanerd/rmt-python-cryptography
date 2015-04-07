@@ -2,13 +2,13 @@
 
 import math
 
-def indexOf(list, element):
+def index(list, element):
   for i in range(len(list)):
     if list[i] == element:
       return i
   return -1
 
-def freqOf(list, element):
+def count(list, element):
   counter = 0
   for i in list:
     if i == element:
